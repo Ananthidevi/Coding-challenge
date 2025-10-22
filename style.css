@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /**3 element in one frame**/
+    grid-gap: 10px;
+}
+.box{
+    background-color: rgb(91, 87, 151);
+    color: rgb(233, 238, 241);
+    padding: 12px;
+    font-size: 19px;
+    border-radius: 6px;
+}
