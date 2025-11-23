@@ -1,0 +1,48 @@
+
+.navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     z-index: 1000;
+     /*for visible of navbar*/
+}
+.navbar .nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nav-content .nav-links{
+display: flex;
+gap: 15px;
+list-style-type: none;
+
+
+}
+.hero-section{
+    position: relative;
+/*position relative for parent tag*/
+    height: 100vh;
+    /* background-image: url(https://wpblogassets.paytm.com/paytmblog/uploads/2023/09/Blog_Paytm_Portfolio-Diversification-800x500.jpg); */
+    /*url for backround image*/
+    background-size:cover ;
+    background-position: center;
+    padding-top: 200px;
+    display: flex;
+
+}
+.hero-section .hero-text{
+    position: center;
+    /*absollute for child tag*/
+    color: black;
+    top: 50%;
+    left: 30%;
+    background-color:white;
+
+
+}
